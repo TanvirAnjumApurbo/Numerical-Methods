@@ -1,35 +1,33 @@
-# Mathematical Algorithms Repository
+# Numerical Methods
 
-Welcome to the Mathematical Algorithms Repository! This repository contains Python implementations of various mathematical algorithms.
+This repository contains implementations of various numerical methods in Python and C. The methods implemented are as follows:
 
-## Algorithms Included:
+## Table of Contents
 
-1. **Thomas Algorithm:**
-    - File: `thomas_algorithm.py`
-    - Description: Python implementation of the Thomas Algorithm for solving tridiagonal systems of equations.
+1. Thomas Algorithm
+2. Cholesky Decomposition
+3. Gauss-Seidel Method
+4. Linear Regression
+5. Polynomial Regression
 
-2. **Cholesky Decomposition:**
-    - File: `cholesky_decomposition.py`
-    - Description: Python implementation of Cholesky Decomposition. Run with the option `1` to generate a positive definite matrix and perform decomposition.
+## Thomas Algorithm
 
-3. **Gauss-Seidel Method:**
-    - File: `gauss_seidel.py`
-    - Description: Python implementation of the Gauss-Seidel Method. Run with option `1` for convergence checking and `2` without convergence checking.
+The Thomas algorithm is a simplified form of Gaussian elimination that can be used to solve tridiagonal systems of equations. A Python implementation is provided.
 
-4. **Linear Regression:**
-    - File: `linear_regression.py`
-    - Description: Python implementation of Linear Regression. Includes implementations with and without scikit-learn library.
+## Cholesky Decomposition
 
-5. **Polynomial Regression:**
-    - File: `polynomial_regression.py`
-    - Description: Python implementation of Polynomial Regression. Includes implementations with and without scikit-learn library.
+Cholesky Decomposition is a decomposition of a Hermitian, positive-definite matrix into the product of a lower triangular matrix and its conjugate transpose. Python implementations for generating a positive definite matrix and for decomposition are provided.
 
-## Usage:
+## Gauss-Seidel Method
 
-Each algorithm is provided as a separate Python file. You can run them individually by executing the respective Python script.
+The Gauss–Seidel method is an iterative technique for solving a square system of n linear equations with unknown x. Both Python and C implementations are provided, with and without convergence checking.
 
-### Example:
+## Linear Regression
 
-To run the Thomas Algorithm:
-```bash
-python thomas_algorithm.py
+Linear regression is a linear approach to modeling the relationship between a dependent variable and one or more independent variables. Python implementations with and without the use of Scikit-learn are provided.
+
+## Polynomial Regression
+
+Polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modelled as an nth degree polynomial. Python implementations with and without the use of Scikit-learn are provided.
+
+
