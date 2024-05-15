@@ -40,6 +40,15 @@ Welcome to the "Numerical Methods" repository! This repository contains implemen
     - **Option 1**: Implementing from scratch.
     - **Option 2**: Implementing using scikit-learn library.
 
+## Usage:
+
+Each algorithm is provided as a separate Python file. You can run them individually by executing the respective Python script.
+
+## Contribution:
+
+Contributions to this repository are welcome! If you have additional algorithms to add, or improvements to existing ones, feel free to submit a pull request.
+
 ---
 
-Feel free to explore the implementations and adapt them to your needs. Happy coding!
+Feel free to explore the implementations and adapt them to your needs. Also customize it further according to your preferences or add any additional sections you find necessary!
+Happy coding!
