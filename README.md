@@ -13,29 +13,29 @@ Welcome to the "Numerical Methods" repository! This repository contains implemen
 ---
 
 ## Thomas Algorithm
-- **File**: `thomas_algorithm.py`
+- **File**: `ThomasAlgorithm.py`
 - **Description**: Implementation of the Thomas Algorithm for solving tridiagonal systems of equations.
 
 ## Cholesky Decomposition
-- **File**: `cholesky_decomposition.py`
+- **File**: `CholeskyDecomposition.py`
 - **Description**: Implementation of Cholesky Decomposition.
     - **Option 1**: Generate a positive definite matrix and perform decomposition.
     - **Option 2**: Perform decomposition on a given positive definite matrix.
 
 ## Gauss-Seidel
-- **File**: `gauss_seidel.py`
+- **File**: `GaussSeidel.py`
 - **Description**: Implementation of Gauss-Seidel iterative method for solving systems of linear equations.
     - **Option 1**: With convergence checking.
     - **Option 2**: Without convergence checking.
 
 ## Linear Regression
-- **File**: `linear_regression.py`
+- **File**: `LinearRegression.py`
 - **Description**: Implementation of Linear Regression.
     - **Option 1**: Implementing from scratch.
     - **Option 2**: Implementing using scikit-learn library.
 
 ## Polynomial Regression
-- **File**: `polynomial_regression.py`
+- **File**: `PolynomialRegression.py`
 - **Description**: Implementation of Polynomial Regression.
     - **Option 1**: Implementing from scratch.
     - **Option 2**: Implementing using scikit-learn library.
