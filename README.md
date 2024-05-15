@@ -1,33 +1,45 @@
 # Numerical Methods
 
-This repository contains implementations of various numerical methods in Python and C. The methods implemented are as follows:
+Welcome to the "Numerical Methods" repository! This repository contains implementations of various numerical methods algorithms in Python.
 
 ## Table of Contents
 
-1. Thomas Algorithm
-2. Cholesky Decomposition
-3. Gauss-Seidel Method
-4. Linear Regression
-5. Polynomial Regression
+1. [Thomas Algorithm](#thomas-algorithm)
+2. [Cholesky Decomposition](#cholesky-decomposition)
+3. [Gauss-Seidel](#gauss-seidel)
+4. [Linear Regression](#linear-regression)
+5. [Polynomial Regression](#polynomial-regression)
+
+---
 
 ## Thomas Algorithm
-
-The Thomas algorithm is a simplified form of Gaussian elimination that can be used to solve tridiagonal systems of equations. A Python implementation is provided.
+- **File**: `thomas_algorithm.py`
+- **Description**: Implementation of the Thomas Algorithm for solving tridiagonal systems of equations.
 
 ## Cholesky Decomposition
+- **File**: `cholesky_decomposition.py`
+- **Description**: Implementation of Cholesky Decomposition.
+    - **Option 1**: Generate a positive definite matrix and perform decomposition.
+    - **Option 2**: Perform decomposition on a given positive definite matrix.
 
-Cholesky Decomposition is a decomposition of a Hermitian, positive-definite matrix into the product of a lower triangular matrix and its conjugate transpose. Python implementations for generating a positive definite matrix and for decomposition are provided.
-
-## Gauss-Seidel Method
-
-The Gauss–Seidel method is an iterative technique for solving a square system of n linear equations with unknown x. Both Python and C implementations are provided, with and without convergence checking.
+## Gauss-Seidel
+- **File**: `gauss_seidel.py`
+- **Description**: Implementation of Gauss-Seidel iterative method for solving systems of linear equations.
+    - **Option 1**: With convergence checking.
+    - **Option 2**: Without convergence checking.
 
 ## Linear Regression
-
-Linear regression is a linear approach to modeling the relationship between a dependent variable and one or more independent variables. Python implementations with and without the use of Scikit-learn are provided.
+- **File**: `linear_regression.py`
+- **Description**: Implementation of Linear Regression.
+    - **Option 1**: Implementing from scratch.
+    - **Option 2**: Implementing using scikit-learn library.
 
 ## Polynomial Regression
+- **File**: `polynomial_regression.py`
+- **Description**: Implementation of Polynomial Regression.
+    - **Option 1**: Implementing from scratch.
+    - **Option 2**: Implementing using scikit-learn library.
 
-Polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modelled as an nth degree polynomial. Python implementations with and without the use of Scikit-learn are provided.
+---
 
-
+Feel free to explore the implementations and adapt them to your needs. Happy coding!
