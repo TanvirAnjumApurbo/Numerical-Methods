@@ -9,6 +9,7 @@ Welcome to the "Numerical Methods" repository! This repository contains implemen
 3. [Gauss-Seidel](#gauss-seidel)
 4. [Linear Regression](#linear-regression)
 5. [Polynomial Regression](#polynomial-regression)
+6. [Linear Interpolation](#linear-interpolation)
 
 ---
 
@@ -39,6 +40,10 @@ Welcome to the "Numerical Methods" repository! This repository contains implemen
 - **Description**: Implementation of Polynomial Regression.
     - **Option 1**: Implementing from scratch.
     - **Option 2**: Implementing using scikit-learn library.
+
+## Linear Interpolation
+- **File**: `LinearInterpolation.py`
+- **Description**: Implementation of Linear Interpolation for estimating values between two known values in a dataset.
 
 ## Usage:
 
