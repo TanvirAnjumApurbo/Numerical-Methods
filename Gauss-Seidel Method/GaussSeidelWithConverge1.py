@@ -40,7 +40,7 @@ print("Initial Solution:", x)
 
 if is_diagonally_dominant(a):
     previous_x = x[:]
-    for i in range(0, 300000):
+    for i in range(0, 3):
         x = seidel(a, x, b)
         error = calculate_error(previous_x, x)
         print("Iteration", i + 1, ":", x, "Error:", error, "%")

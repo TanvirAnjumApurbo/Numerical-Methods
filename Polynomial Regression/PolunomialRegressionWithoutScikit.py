@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 # Given data
-x_data = np.array([0, 1, 2, 3, 4, 5])
-y_data = np.array([2.1, 7.7, 13.6, 27.2, 40.9, 61.1])
+x_data = np.array([6, 7, 11, 15, 17, 21, 23, 29, 29, 37, 39])
+y_data = np.array([29, 21, 29, 14, 21, 15, 7, 7, 13, 0, 3])
 
 # Define the function for the polynomial fit
 
