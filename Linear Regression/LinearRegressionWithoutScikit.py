@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Data
 x = np.array([1, 2, 3, 4, 5, 6, 7])
-y = np.array([0.5, 2.5, 2, 4, 3.5, 6, 5.5])
+y = np.array([7, 23.5, 11, 17, 31, 20, 30])
 
 # Perform linear regression
 slope, intercept = np.polyfit(x, y, 1)

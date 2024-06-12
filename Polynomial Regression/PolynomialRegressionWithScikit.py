@@ -4,8 +4,8 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
 # Given data
-x_data = np.array([0, 1, 2, 3, 4, 5]).reshape(-1, 1)
-y_data = np.array([2.1, 7.7, 13.6, 27.2, 40.9, 61.1])
+x_data = np.array([2.5, 3.5, 5, 6, 7.5, 10, 12.5, 15, 17.5, 20]).reshape(-1, 1)
+y_data = np.array([13, 11, 8.5, 8.2, 7, 6.2, 5.2, 4.8, 4.6, 4.3])
 
 # Define the degree of the polynomial
 degree = 2

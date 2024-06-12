@@ -28,11 +28,16 @@ def linear_interpolation(x_values, f, x_new):
 
     return y_new
 
+# Define the function f(x) = sin^2(x) + 3
+
+
+def f(x):
+    return np.sin(x)**2 + 3
+
 
 # Example usage:
-x_values = np.array([0.5, 1.0])
-f = np.sin  # function
-x_new = 0.632
+x_values = np.array([0.3, 3.69])
+x_new = 2.1
 
 y_new = linear_interpolation(x_values, f, x_new)
 print(f'Interpolated value at x = {x_new}: {y_new}')

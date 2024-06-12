@@ -8,7 +8,7 @@ y_data = np.array([29, 21, 29, 14, 21, 15, 7, 7, 13, 0, 3])
 
 # Define the function for the polynomial fit
 
-
+              
 def polynomial_func(x, a, b, c):
     return a * x**2 + b * x + c
 
